@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+    font: 16px 'Roboto', sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.header{
+    background-color: white;
+    text-align: left;
+    position: fixed;
+}
+
+.conteudo{
+    background-color: white;
+    text-align: left;
+    padding: 50px 80px;
+}
+
+.card{
+    width: 18rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.caixa1, .caixa2{
+    height: 100%;
+    opacity: .5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1{
+    background-image: url(assets/img/imagem1.png);
+}
+
+.caixa2{
+    background-image: url(assets/img/imagem2.png);
+}
+
+.contacts{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
