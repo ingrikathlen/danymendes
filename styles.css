@@ -9,6 +9,7 @@ html, body{
     background-color: white;
     text-align: left;
     position: fixed;
+    z-index: 1;
 }
 
 .conteudo{
